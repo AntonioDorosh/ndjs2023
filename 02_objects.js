@@ -76,8 +76,6 @@ console.log({
  * 7. Loop through object and log key-values
  */
 
-for (let [key,values] of Object.entries(invoice)) {
-    console.log(`key: ${key}, values: ${values}`)
+for (let invoiceKey in invoice) {
+    console.log(`key ${invoiceKey}, values ${invoice[invoiceKey]}`)
 }
-
-console.log(invoice)
