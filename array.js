@@ -46,7 +46,7 @@ console.log({
  * Should return another Array
  */
 
-const elementsBiggerThanFive = myArray.some(num => num > 5);
+const elementsBiggerThanFive = myArray.filter(el => el > 5);
 
 console.log({
     elementsBiggerThanFive,
