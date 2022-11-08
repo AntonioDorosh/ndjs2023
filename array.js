@@ -5,11 +5,8 @@ const myArray = [1, 10, 3, 6, 'ArrayElement'];
  * Please, use more than on solution
  */
 
-console.log(myArray[2])
-console.log(myArray.at(-1))
-
-// console.log(`3: ${}`);
-// console.log(`6: ${}`);
+console.log(`3: ${myArray[2]}`);
+console.log(`6: ${myArray.at(-1)}`);
 
 /**
  *  2. Log type of each element
