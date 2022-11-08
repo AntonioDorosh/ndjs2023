@@ -77,5 +77,5 @@ console.log({
  */
 
 for (let invoiceKey in invoice) {
-    console.log(`key ${invoiceKey}, values ${invoice[invoiceKey]}`)
+    console.log(`key: ${invoiceKey}, values: ${invoice[invoiceKey]}`)
 }
